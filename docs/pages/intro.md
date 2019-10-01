@@ -1,6 +1,6 @@
 O paradigma SDN propõe a separação entre o encaminhamento e o controle da rede (roteamento, entre outras funções) a partir da desagregação destas funções dos dispositivos de rede (roteadores e comutadores). Esta arquitetura permite que as aplicações de gerenciamento de tráfego e de serviços tenham acesso à uma versão completa, virtualizada e mais simples da rede.
 A Figura 1 mostra um mapa lógico da SDN. O plano de dados (camada de infraestrutura na imagem), responsável pela realização do match plus action, o paradigma generalizado de encaminhamento, é composto pelos dispositivos de rede. Este se comunica com o plano de controle, responsável pela virtualização da rede, através de protocolos da CDPI (Control-Data Plane Interface) ou Southbridge, como o OpenFlow. A camada de aplicação hospeda as aplicações que calculam as tabelas de fluxo a serem implementadas pela camada de dados, e utiliza a rede virtualizada providenciada pela camada de controle para tal.
 
-<img style="display: block;margin-left: auto;margin-right: auto;" src="assets/Images/sdnarchitecture.png">
+<img style="display: block;margin-left: auto;margin-right: auto;" src="assets/images/sdnarchitecture.png">
 
 O encaminhamento sobre fluxos dá à arquitetura SDN muito mais flexibilidade com relação aos tipos de serviços de rede capazes de serem implementados pelas aplicações de gerenciamento de tráfego, como controle de acesso, roteamento, QoS e políticas de negócios.

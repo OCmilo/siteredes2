@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap');
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+}
+
 .app-name-link img {
-    width: 35%
+    width: 30%
 }
 
 .app-nav {
@@ -15,4 +22,55 @@
 
 .app-nav ul {
     margin-right: 20px;
+}
+
+.app-nav li {
+    margin: 0px;
+}
+
+.app-nav a {
+    padding: 0px 30px 13px;
+}
+
+.app-nav p {
+    float: left;
+    margin-top: 6px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    color: #41B883;
+    font-weight: 700
+}
+
+#wrapperx {
+    overflow: hidden;
+    display: inline-block;
+}
+
+#camilo-div {
+    float: left;
+}
+
+#nicolas-div {
+    overflow: hidden;
+    padding-left: 90px;
+}
+
+#camilo-div img {
+    width: 330px !important;
+    border-radius: 50%;
+    width: 30%;
+}
+
+#nicolas-div img {
+    width: 330px !important;
+    border-radius: 50%;
+    width: 40%;
+}
+
+#camilo-div a {
+    text-decoration: none;
+}
+
+#camilo-div h2:hover, #camilo-div h2:active, #camilo-div h2:visited {
+    color: #41B883 !important; 
 }
