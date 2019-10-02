@@ -1,4 +1,4 @@
-- [Home](pages/home.md)
+- [Home](pages/home.html)
 - [Introdução](pages/intro.md)
 - Motivação
 - O Plano de Dados

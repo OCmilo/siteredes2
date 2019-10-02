@@ -29,6 +29,10 @@ body {
 }
 
 .app-nav a {
+    padding: 0px 5px 13px;
+}
+
+.app-nav li a {
     padding: 0px 30px 13px;
 }
 
@@ -73,4 +77,20 @@ body {
 
 #camilo-div h2:hover, #camilo-div h2:active, #camilo-div h2:visited {
     color: #41B883 !important; 
+}
+
+#homepagex {
+    text-align: center;
+}
+
+#homepagex img {
+    margin: 20px;
+}
+
+#homepagex h1 {
+    color: #41B883;
+}
+
+#homepagex p {
+    font-weight: 500
 }
