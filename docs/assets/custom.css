@@ -36,6 +36,10 @@ body {
     padding: 0px 30px 13px;
 }
 
+.app-nav p a.active{
+    border-bottom: transparent !important;
+}
+
 .app-nav p {
     float: left;
     margin-top: 6px;
@@ -84,7 +88,7 @@ body {
 }
 
 #homepagex img {
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
 #homepagex h1 {
