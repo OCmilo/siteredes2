@@ -5,20 +5,15 @@ body {
     font-weight: 500;
 }
 
-.app-name-link img {
-    width: 30%
-}
-
 .app-nav {
     top: 0px;
-    left: 300px;
+    left: 0px;
     border-bottom: solid 1px #ececec;
     margin: 0px !important;
-    padding: 9px 0px;
+    padding: 20px 0px;
     background-color: white;
     position: fixed;
 }
-
 
 .app-nav ul {
     margin-right: 20px;
@@ -32,8 +27,13 @@ body {
     padding: 0px 5px 13px;
 }
 
+.app-nav a span {
+    font-size: 20px;
+}
+
 .app-nav li a {
-    padding: 0px 30px 13px;
+    padding: 0px 40px 26px;
+    font-size: 18px;
 }
 
 .app-nav p a.active{
@@ -47,6 +47,18 @@ body {
     letter-spacing: 1px;
     color: #41B883;
     font-weight: 700
+}
+
+.sidebar {
+    top: 70px;
+}
+
+.sidebar a {
+    font-size: 16px !important;
+}
+
+.search {
+    margin: 10px;
 }
 
 #wrapperx {
