@@ -1,8 +1,25 @@
 # Introdução
 
-O paradigma SDN propõe a separação entre o encaminhamento e o controle da rede (roteamento, entre outras funções) a partir da desagregação destas funções dos dispositivos de rede (roteadores e comutadores). Esta arquitetura permite que as aplicações de gerenciamento de tráfego e de serviços tenham acesso à uma versão completa, virtualizada e mais simples da rede.
-A Figura 1 mostra um mapa lógico da SDN. O plano de dados (camada de infraestrutura na imagem), responsável pela realização do match plus action, o paradigma generalizado de encaminhamento, é composto pelos dispositivos de rede. Este se comunica com o plano de controle, responsável pela virtualização da rede, através de protocolos da CDPI (Control-Data Plane Interface) ou Southbridge, como o OpenFlow. A camada de aplicação hospeda as aplicações que calculam as tabelas de fluxo a serem implementadas pela camada de dados, e utiliza a rede virtualizada providenciada pela camada de controle para tal.
+## 1.1 Motivação para um Novo Paradigma
+O rápido crescimento na distribuição de conteúdo, virtualização de servidores e o
+advento dos serviços na nuvem são algumas das mudanças que motivaram o
+surgimento de novas arquiteturas de rede. Em contraste com o modelo tradicional da
+Internet de cliente-servidor, onde o tráfego está concentrado entre estas duas
+entidades, a Internet atual está vendo a explosão de tráfego entre os próprios
+servidores e datacenters, alavancada principalmente por:
 
-<img style="display: block;margin-left: auto;margin-right: auto;" src="assets/images/sdnarchitecture.png">
++ **Serviços de nuvem e a virtualização**: As aplicações atuais residem em
+diversas máquinas virtuais (VMs), muitas vezes em diferentes servidores
+físicos, e estas trocam dados entre si.
 
-O encaminhamento sobre fluxos dá à arquitetura SDN muito mais flexibilidade com relação aos tipos de serviços de rede capazes de serem implementados pelas aplicações de gerenciamento de tráfego, como controle de acesso, roteamento, QoS e políticas de negócios.
++ **Big Data**: O processamento de enormes quantidades de dados é feito em
+paralelo em diversos datacenters que necessitam trocar dados entre si.
+
+## 1.2 Limitações das Redes Atuais
+As tecnologias de rede tradicionais são compostas principalmente por um conjunto de
+protocolos independentes, o que resulta em uma das principais limitações das
+arquiteturas atuais, a complexidade. À medida que uma rede cresce, qualquer
+mudança que deva ser feita envolverá a configuração de diversos dispositivos
+fabricados por diferentes empresas e rodado uma variedade de protocolos.
+Consequentemente, a fim de minimizar problemas, as redes atuais são relativamente
+estáticas.
