@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap");
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+}
+
+.app-nav {
+  top: 0px;
+  left: 0px;
+  border-bottom: solid 1px #ececec;
+  margin: 0px !important;
+  padding: 20px 0px;
+  background-color: white;
+  position: fixed;
+}
+
+.app-nav ul {
+  margin-right: 20px;
+}
+
+.app-nav li {
+  margin: 0px;
+}
+
+.app-nav li a {
+  padding: 0px 40px 26px;
+  font-size: 18px;
+}
+
+.app-nav a {
+  padding: 0px 5px 13px;
+}
+
+.app-nav a span {
+  font-size: 20px;
+}
+
+.app-nav p {
+  float: left;
+  margin-top: 6px;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  color: #41B883;
+  font-weight: 700;
+}
+
+.app-nav p a.active {
+  border-bottom: transparent !important;
+}
+
+.sidebar {
+  top: 70px;
+}
+
+.sidebar a {
+  font-size: 16px !important;
+}
+
+.search {
+  margin: 10px;
+}
+
+#wrapperx {
+  overflow: hidden;
+  display: inline-block;
+}
+
+#camilo-div {
+  float: left;
+}
+
+#camilo-div img {
+  width: 330px !important;
+  border-radius: 50%;
+  width: 30%;
+}
+
+#camilo-div a {
+  text-decoration: none;
+}
+
+#camilo-div h2:hover {
+  color: #41B883 !important;
+}
+
+#camilo-div h2:active {
+  color: #41B883 !important;
+}
+
+#camilo-div h2:visited {
+  color: #41B883 !important;
+}
+
+#nicolas-div {
+  overflow: hidden;
+  padding-left: 90px;
+}
+
+#nicolas-div img {
+  width: 330px !important;
+  border-radius: 50%;
+  width: 40%;
+}
+
+#homepagex {
+  text-align: center;
+}
+
+#homepagex img {
+  margin-bottom: 20px;
+}
+
+#homepagex h1 {
+  color: #41B883;
+}
+
+#homepagex p {
+  font-weight: 500;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content p {
+  text-align: justify;
+}
+/*# sourceMappingURL=custom1.css.map */
