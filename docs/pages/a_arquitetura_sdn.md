@@ -23,7 +23,7 @@ aplicações, controladores e elementos de rede.</figcaption>
 
 ## 3.1 O Plano de Dados
 A **Figura 3** expande o conceito de elemento de rede mostrando alguns blocos a mais.
-O pano de dados incorpora os recursos físicos que lidam com o tráfego na rede
+O plano de dados incorpora os recursos físicos que lidam com o tráfego na rede
 através do bloco funcional de Recursos do ER (Elemento de Rede), que contém uma
 fonte e um destino de dados, ferramentas de encaminhamento e processamento de
 pacotes (define-se como recursos de rede) e um virtualizador, cuja função é fornecer
@@ -44,7 +44,7 @@ agente, unicamente associado a um controlador. O Coordenador é a entidade que
 aloca recursos de diferentes elementos de rede a cada agente e implementa as
 políticas definidas pelo plano de gerenciamento.
 
-A D-CPI é a única interface pela qual os panos de dados e de controle se comunicam
+A D-CPI é a única interface pela qual os planos de dados e de controle se comunicam
 e tem como objetivo implementar certas funções como:
 + Controle programático de todos os recursos expostos pelo RDB Mestre.
 + Anúncio de competências.
@@ -112,7 +112,7 @@ tarefas, segundo as funções de gerenciamento; esta associação está fora do 
 da aplicação e é feita automaticamente pelo plano de gerenciamento segundo os seus
 requerimentos de recursos e comportamentos.
 
-<img class='center' src='assets/images/Detalhe do Plano de Controle.jpg' alt='Detalhe do plano de controle SDN'>
+<img class='center' src='assets/images/Detalhe do Plano de Aplicação.jpg' alt='Detalhe do plano de controle SDN'>
 <figcaption style='text-align:center;'><b>Figura 5</b>: Detalhe do plano de aplicação. 
 A natureza hierárquica das instâncias na arquitetura SDN permite que várias aplicações 
 se comuniquem através de agentes A-CPI de forma natural. Cada aplicação pode, por sua vez,

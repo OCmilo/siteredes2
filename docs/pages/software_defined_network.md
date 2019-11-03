@@ -26,14 +26,15 @@ exemplo entre planos distintos, ocorre de acordo com o modelo cliente-servidor.
 através da A-CPI e da D-CPI. Os gerentes são responsáveis pela inicialização dos elementos
 em cada um dos três planos e pela instalação de políticas corporativas e de segurança.</figcaption>
 
+
 A fim de permitir que aplicações de corporações distintas tenham acesso direto ao
 controlador SDN, a arquitetura incorpora o conceito de domínios de confiança através
 dos agentes, o elemento funcional que define os recursos e o escopo do cliente no
 servidor. Por exemplo, na figura acima o agente vermelho no controlador representa
-todos os recursos de rede (propriamente virtualizados abstraídos) disponíveis à
+todos os recursos de rede (propriamente virtualizados e abstraídos) disponíveis à
 aplicação vermelha no plano de aplicação segundo as políticas de segurança definida
 pelo gerente vermelho no plano de gerenciamento. Por outro lado, o agente em um
-elemento de rede no pano de dados representa o conjunto de recursos de
+elemento de rede no plano de dados representa o conjunto de recursos de
 encaminhamento e processamento disponíveis àquele controlador.
 A lógica de controle da SDN é o elemento que, de fato, executa a função principal do
 controlador, arbitrar entre os pedidos das diversas aplicações e exercer controle sobre
