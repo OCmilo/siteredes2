@@ -112,7 +112,7 @@ tarefas, segundo as funções de gerenciamento; esta associação está fora do 
 da aplicação e é feita automaticamente pelo plano de gerenciamento segundo os seus
 requerimentos de recursos e comportamentos.
 
-<img class='center' src='assets/images/Detalhe do Plano de Aplicação.jpg' alt='Detalhe do plano de controle SDN'>
+<img class='center' src='assets/images/Detalhe do Plano de Aplicação.jpg' alt='Detalhe do plano de aplicações SDN'>
 <figcaption style='text-align:center;'><b>Figura 5</b>: Detalhe do plano de aplicação. 
 A natureza hierárquica das instâncias na arquitetura SDN permite que várias aplicações 
 se comuniquem através de agentes A-CPI de forma natural. Cada aplicação pode, por sua vez,
